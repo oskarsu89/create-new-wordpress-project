@@ -1,10 +1,9 @@
 # Create New Wordpress Project Scripts
 
-Shell scripts to create new Wordpress projects on Linux or Mac.
+Shell script to create new Wordpress projects on Linux.
 
 **Prerequisites:** 
 - Wp-cli
 - PHP
-- Web server
 - MySQL
 
