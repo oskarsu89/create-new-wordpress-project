@@ -1,0 +1,18 @@
+#!/bin/bash
+echo Please insert project title:
+
+read projectTitle
+
+cd /opt/lampp/htdocs/
+
+mkdir $projectTitle
+
+cd $projectTitle
+
+wp core download
+
+wp config create --dbname=$projectTitle --dbuser=root --prompt=
+
+wp db create
+
+wp core install --url=localhost/$projectTitle --title="$projectTitle" --admin_user=admin --admin_password="password123" --admin_email=admin@admin.com
