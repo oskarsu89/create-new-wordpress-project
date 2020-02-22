@@ -1,4 +1,4 @@
-# Create New Wordpress Project Script
+# Create New Wordpress Project On Linux Script
 
 Shell script to create new Wordpress projects on Linux.
 
